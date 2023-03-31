@@ -1,7 +1,7 @@
 function tocaSom(seletorAudio) {
     const elemento = document.querySelector(seletorAudio);
     
-    /*do not pass any other parameter besides the 'audio' tag*/
+    //do not pass any other parameter besides the audio tag
     if (elemento && elemento.localName === 'audio') {
         elemento.play();  
     } else {
@@ -16,7 +16,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     const tecla = listaDeTeclas[contador];
     
-    //capture the second element of the class. ex: "tecla_pom"
+    //capture the second element of the class ex tecla_pom
     const instrumento = tecla.classList[1]; 
     
     const idAudio = `#som_${instrumento}`;
