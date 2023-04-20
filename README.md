@@ -1,4 +1,4 @@
-# aluramid
+# Alura Midi
 
 O Alura Midi é um instrumento musical de interface digital, onde a cada botão reproduzimos o som de um instrumento. Este é um projeto que fiz através da plataforma Alura.
 
